@@ -1,5 +1,5 @@
 def reverse_each_word (string)
-array = string.split
-string.each {|str| str.reverse}
+array = string.split (" ")
+array.each {|word| word.reverse}
 
 end 
